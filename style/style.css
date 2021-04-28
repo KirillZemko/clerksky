@@ -72,7 +72,7 @@ img {
 .title__theme_green {
   font-style: normal;
   font-weight: 600;
-  font-size: 48px;
+  font-size: 47px;
   line-height: 54px;
   color: #163A24;
 }
@@ -315,7 +315,7 @@ img {
   border-radius: 15px;
 }
 
-.scenes__item:hover {
+/* .scenes__item:hover {
   flex-basis: 354px;
   height: 430px;
   margin: 0;
@@ -324,7 +324,7 @@ img {
   background: #FBFAF7;
   box-shadow: 5px 5px 20px #E9E4D5;
   border-radius: 15px;
-}
+} */
 
 .scenes__item-img {
   margin-bottom: 20px;
@@ -345,4 +345,58 @@ img {
 
 .scenes__list-item {
   margin: 15px 0;
+}
+
+.easy {
+  background: #F2EFE6;
+  padding-top: 114px;
+  padding-bottom: 124px;
+}
+
+.easy__title {
+  width: 360px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.easy__subtitle {
+  width: 527px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.easy__steps {
+  display: flex;
+  align-items: center;
+  width: 1180px;
+  margin: 0px auto;
+  padding: 45px 0;
+  text-align: center;
+}
+
+.easy__step {
+
+}
+
+.easy__step-background {
+  background-image: url(../img/easy-step.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 285px;
+  height: 180px;
+}
+
+.easy__step-subtitle {
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 13px;
+}
+
+.easy__step-title {
+  font-size: 28px;
+  line-height: 31px;
+}
+
+.easy__step-img {
+  margin-left: 35px;
 }
